@@ -1,10 +1,14 @@
 void setup() { 
   size(400, 800, P2D); 
-  noLoop();
+  //noLoop();
+  frameRate(1);
 }
 
+
 void draw() {
-  background(153, 255, 204);
+
+  background(255, random(255), random(255));
+
   plant(15, 0.4, 0.8);
 }
 
